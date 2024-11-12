@@ -8,13 +8,11 @@ public class Penerima {
     private String nama;
     private String kategori;
 
-    // Konstruktor berparameter
     public Penerima(String nama, String kategori) {
         this.nama = nama;
         this.kategori = kategori;
     }
 
-    // Getter dan Setter untuk nama
     public String getNama() {
         return nama;
     }
@@ -32,7 +30,6 @@ public class Penerima {
         this.kategori = kategori;
     }
 
-    // Metode untuk menampilkan informasi Penerima
     public void displayInfo() {
         System.out.println("Nama Penerima: " + nama);
         System.out.println("Kategori Penerima: " + kategori);
